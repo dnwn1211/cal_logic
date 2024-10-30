@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1ECE407E2CD2468A00BDB626 /* cal_Lv1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = cal_Lv1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1ECE407F2CD246D000BDB626 /* cal_Lv2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = cal_Lv2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1ECE40802CD246F800BDB626 /* cal_Lv3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = cal_Lv3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1ECE40812CD2471D00BDB626 /* cal_Lv4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = cal_Lv4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1ECE40772CD2464B00BDB626 = {
+			isa = PBXGroup;
+			children = (
+				1ECE40812CD2471D00BDB626 /* cal_Lv4.playground */,
+				1ECE40802CD246F800BDB626 /* cal_Lv3.playground */,
+				1ECE407F2CD246D000BDB626 /* cal_Lv2.playground */,
+				1ECE407E2CD2468A00BDB626 /* cal_Lv1.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1ECE40782CD2464B00BDB626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 1ECE407B2CD2464B00BDB626 /* Build configuration list for PBXProject "cal_playground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ECE40772CD2464B00BDB626;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1ECE407C2CD2464B00BDB626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1ECE407D2CD2464B00BDB626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ECE407B2CD2464B00BDB626 /* Build configuration list for PBXProject "cal_playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECE407C2CD2464B00BDB626 /* Debug */,
+				1ECE407D2CD2464B00BDB626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ECE40782CD2464B00BDB626 /* Project object */;
+}
