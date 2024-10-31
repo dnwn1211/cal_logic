@@ -18,12 +18,12 @@ class MultiplyOperation {
 }
 
 class DivideOperation {
-    func calculate(_ a: Double, _ b: Double) -> (result: Double, remainder: Double)? {
+    func calculate(_ a: Double, _ b: Double) -> (result: Int, remainder: Double)? {
         guard b != 0 else {
             print("나누려는 수가 0 입니다")
             return nil
         }
-        let result = a / b
+        let result = Int(a / b)  // 정수 부분만 반환
         let remainder = a.truncatingRemainder(dividingBy: b)
         return (result, remainder)
     }
@@ -48,7 +48,7 @@ class Calculator {
         return multiplyOperation.calculate(a, b)
     }
 
-    func divide(_ a: Double, _ b: Double) -> (result: Double, remainder: Double)? {
+    func divide(_ a: Double, _ b: Double) -> (result: Int, remainder: Double)? {
         return divideOperation.calculate(a, b)
     }
 }
@@ -56,14 +56,16 @@ class Calculator {
 // 테스트
 let calculator = Calculator()
 
-print("10 + 5 = \(calculator.add(10, 5))")
+var num1: Double = 10
+var num2: Double = 3
 
-print("10 - 5 = \(calculator.subtract(10, 5))")
+print("Lv3")
+print("\(num1) + \(num2) = \(calculator.add(num1, num2))")
+print("\(num1) - \(num2) = \(calculator.subtract(num1, num2))")
+print("\(num1) * \(num2) = \(calculator.multiply(num1, num2))")
 
-print("10 * 5 = \(calculator.multiply(10, 5))")
-
-if let resultDiv = calculator.divide(10, 0) {
-    print("10 / 3 = \(resultDiv.result), 나머지는 : \(resultDiv.remainder)")
+if let resultDiv = calculator.divide(num1, num2) {
+    print("\(num1) / \(num2) = \(resultDiv.result), 나머지는 : \(resultDiv.remainder)")
 } else {
     print("나누기 Error.")
 }
